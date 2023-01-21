@@ -3,7 +3,7 @@ Nesse desafio iremos avaliar suas habilidades em:
 ● Python
 ● Django
 ● Django REST Framework
-#Descrição do projeto
+# Descrição do projeto
 Você recebeu um arquivo com dados de alguns clientes que precisam ser
 importadas
 para um banco de dados. Será necessária a criação de dois endpoints para que os
