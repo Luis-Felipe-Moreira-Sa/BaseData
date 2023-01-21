@@ -30,7 +30,7 @@ arquivo requirementes.txt:
 
 Entre na pasta criada e inicie um ambiente virtual:
 ```
-$ cd Clinica_Moreira
+$ cd BaseData
 $ virtualenv env
 ```
 Depois voce deve ativa-lo com o seguinte comando:
@@ -41,6 +41,8 @@ $ . /env/bin/activate
 Apos ativado, instale as bibliotecas necessárias para executar o projeto:
 ```
  (env)$ pip install django
+ 
+ (env)$ pip install djangorestframework
 ```
 Para poder ter o primeiro acesso e pode configurar o aplicação vamos executar o comando  'migrate' para gerar o banco de dados padrão do Django(SQLite).
 
@@ -67,6 +69,6 @@ Para visualizar se tudo esta executando como esperado vamos acessar o seguinte e
 Ou você pode ter acesso a admin do Django:
 [http://localhost:8000/admin]
 
-# Clinica_Moreira
-# Clinica_Moreira
-# Clinica_Moreira
+# BaseData
+# BaseData
+# BaseData
