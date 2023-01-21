@@ -1,0 +1,15 @@
+{% extends "desafio/header.html" %}
+
+{% block content %} 
+
+<!--Register--> 
+<div class="container py-5" id="centralize">
+	<h1>Upload</h1>
+	<form action="{% url 'read_excel' %}" method="POST">
+    {% csrf_token %}
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+</div>
+
+{% endblock %}
